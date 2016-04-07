@@ -136,6 +136,7 @@ var gameModule = (function() {
         resetAdditionalCards: function() {
             additionalCards.length = 0;
             transferCard = 0;
+            cardCounter = 0;
         },
         
         rememberParent: function(card)
